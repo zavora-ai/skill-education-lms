@@ -1,12 +1,11 @@
 ---
 name: education-lms
 description: Orchestrate LMS operations — manage courses, create assignments, grade submissions, track student progress, post announcements, and analyze course performance. Use when managing courses, creating assignments, grading work, checking student progress, posting announcements, or analyzing course analytics.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-education server connected (Canvas LMS or generic LMS API).
 allowed-tools: [list_courses, get_course, list_assignments, get_assignment, create_assignment, list_students, get_submissions, grade_submission, post_announcement, get_course_analytics, list_modules, search_course_content]
-tags: [business, education, lms, courses, grading, students]
 metadata:
+  category: mcp-enhancement
   author: Zavora AI
   mcp-server: mcp-education
   success-criteria:
